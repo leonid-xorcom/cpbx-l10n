@@ -1,24 +1,45 @@
 inbound_route = Rutas Entrantes
 inbound_route.alertinfo = Información de Alerta
-inbound_route.alertinfo.tooltip = Sin embargo, no parece ser un estándar de cómo decirle a un teléfono SIP que desea que suene con un sonido distintivo. En los teléfonos SIP que soportan timbre especial en absoluto, el método exacto de la especificación de timbre especial varía de un modelo a otro. A menudo (o siempre?) Es mediante el envío de un SIP "Alert-info" de cabecera, pero lo que el valor de esta cabecera debe ser no es consistente.
+inbound_route.alertinfo.tooltip = Todavía no parece haber un estándar establecido sobre cómo indicar a un teléfono SIP que desee que suene con un timbre distintivo. En los teléfonos SIP que admiten un timbre distintivo, el método exacto para especificarlo varía de un modelo a otro. A menudo (¿o siempre?) se realiza mediante el envío de un encabezado SIP "Alert-info", pero el valor de este encabezado no es consistente.
 inbound_route.any_cid = Cualquier CID
 inbound_route.any_did = Cualquier DID
 inbound_route.channel_id = Canal FXO
 inbound_route.channel_id.duplicate = La Ruta FXO "Canal  -%s/%s" ya existe
 inbound_route.channel_id.tooltip = Canal FXO para para enrutar las llamadas
 inbound_route.cid_number = Patrón CID
+inbound_route.cid_number.tooltip = 
+  Un patrón que define números de Identificación de Llamada (CID) que coinciden. Déje en blanco para que coincida con todo. Se admiten los siguientes caracteres y secuencias especiales:<ul> 
+  <li>X - Un solo dígito del 0 al 9.</li> 
+  <li>Z - Un solo dígito del 1 al 9.</li> 
+  <li>N - Un solo dígito del 2 al 9.</li> 
+  <li>. - Uno o más dígitos y/o caracteres restantes al final del patrón.</li> 
+  <li>! - Cero o más dígitos y/o caracteres restantes al final del patrón.</li> 
+  <li>[157-9X] - Un dígito y/o caracter (1, 5, 7, 8, 9 o X) según lo especificado entre corchetes.</li> 
+  </ul>
 inbound_route.description = Descripción
 inbound_route.description.tooltip = Breve descripción para identificar este DID.
+inbound_route.description.invalid = Se requiere una descripción y debe ser única
 inbound_route.destination = Destino Entrante
 inbound_route.detectiontime = Tiempo de Detección
 inbound_route.detectiontime.tooltip = Tiempo de Detección.
 inbound_route.did = Patrón DID
 inbound_route.did.duplicate = Esta ruta de entrada "%s/%s" ya existe
+inbound_route.did.tooltip = 
+  Un patrón que define números coincidentes de Marcación Directa Entrante (DID). Déje en blanco para que coincida con todo. Se admiten los siguientes caracteres y secuencias especiales:<ul> 
+  <li>X: Un solo dígito del 0 al 9.</li> 
+  <li>Z: Un solo dígito del 1 al 9.</li> 
+  <li>N: Un solo dígito del 2 al 9.</li> 
+  <li>.: Uno o más dígitos y/o caracteres restantes.</li> 
+  <li>!: Cero o más dígitos y/o caracteres restantes.</li> 
+  <li>[157-9X]: Un dígito y/o carácter (1, 5, 7, 8, 9 o X) como se especifica entre corchetes.</li> 
+  </ul>
+inbound_route.did.invalid = El patrón DID debe ser válido o estar vacío.
 inbound_route.enablerecording = Habilitar Grabación
 inbound_route.enablerecording.tooltip = Habilita grabación de llamadas.
 inbound_route.faxdetection = Detección de Fax
 inbound_route.faxdetection.tooltip = Detección de Fax.
 inbound_route.fax_destination = Detección de Fax
+inbound_route.fax_module.empty = Se debe seleccionar el módulo de Destino de Fax.
 inbound_route.fax_mod_dest = Módulo de Detección de Fax
 inbound_route.fax_settings = Configuración de Fax
 inbound_route.general = General
@@ -27,6 +48,7 @@ inbound_route.language.tooltip = Idioma del Canal
 inbound_route.mod_dest = Módulo de Destino Entrante
 inbound_route.music_group_id = Música en Espera
 inbound_route.music_group_id.tooltip = Música a escuchar cuando la llamada se coloca en espera.
+inbound_route.music_group_id.invalid = La Música en Espera debe ser válida o estar vacía.
 inbound_route.pmmaxretries = Número Máximo de Intentos
 inbound_route.pmmaxretries.tooltip = Número de intentos que el llamante tiene para introducir un identificador de llamadas válido
 inbound_route.pmminlength = Longitud Mínima
@@ -42,3 +64,18 @@ menu.inbound_routes = Rutas Entrantes
 module.inbound_route = Rutas Entrantes
 inbound_route.cid_management_id = Modificador del CID
 inbound_route.cid_management_id.tooltip = Le permite modificar el nombre / número de identificación de la persona que llama.
+inbound_route.destination_id.invalid = Se requiere un destino y debe ser válido
+inbound_route.extension_id.invalid = La extensión debe ser válida o estar vacía
+inbound_route.fax_destination_id.invalid = El Destino de Fax debe ser válido cuando la detección de fax esté habilitada
+inbound_route.routing_method.invalid = El método de enrutamiento es requerido y debe ser válido
+inbound_route.description.invalid = Se requiere una descripción y debe ser única
+inbound_route.channel_id.invalid = El canal FXO debe ser válido o estar vacío
+inbound_route.destination_source = {0}
+inbound_route.fax_destination_source = {0} - Destino de Fax
+inbound_route.caller_name_source = Origen del Nombre del CID
+inbound_route.caller_name_source.tooltip = Lista opcional de fuentes de CID para buscar el nombre del CID del número entrante. Esta búsqueda se realiza antes de aplicar cualquier modificador de CID.
+inbound_route_cid_source.inbound_route_id.invalid = Se requiere una ruta de entrada y debe ser válida.
+inbound_route_cid_source.phonebook_id.invalid = Se requiere un directorio telefónico y debe ser válido.
+inbound_route.did.wildcards = Los comodines . y ! solo están permitidos al final del patrón DID.
+inbound_route.cid_number.wildcards = Los comodines . y ! solo están permitidos al final del patrón CID.
+inbound_route.cid_number.invalid = El patrón CID debe ser válido o estar vacío.

@@ -1,0 +1,8 @@
+menu.fop2 = FOP2 Switchboard
+menu.fop2_admin = FOP2 Manager
+module.fop2 = Switchboard
+module.fop2_admin = FOP2 Manager
+fop2.general = General
+fop2_admin.general = General
+fop2.fop2 = FOP2 Switchboard
+fop2.fop2admin = FOP2 Manager

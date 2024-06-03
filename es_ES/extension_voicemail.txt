@@ -1,5 +1,5 @@
-extension_voicemail.confirm_delete = Está seguro que desea borrar este registro?
-extension_voicemail.confirm_delete_all = Está seguro que desea borrar el/los registro/s seleccionado/s?
+extension_voicemail.confirm_delete = ¿Está seguro que desea borrar este registro?
+extension_voicemail.confirm_delete_all = ¿Está seguro que desea borrar el/los registro/s seleccionado/s?
 extension_voicemail.delete = Borrar
 extension_voicemail.delete_selected_vm = Borrar los registros seleccionados
 extension_voicemail.deleted.ownership = No se pudo definir el propietario en la carpeta “borrada” (deleted)
@@ -19,5 +19,5 @@ extension_voicemail.voicemail.duration = Duración (segundos)
 extension_voicemail.voicemail.folder = Carpeta
 extension_voicemail.voicemail.origin = Origen de Correo de Voz
 extension_voicemail.vm_not_deleted = No se pudo borrar el Mensaje de Voz seleccionado
-menu.voicemail = Voicemail
+menu.voicemail = Mi Correo de Voz
 module.extension_voicemail = Mi Correo de Voz

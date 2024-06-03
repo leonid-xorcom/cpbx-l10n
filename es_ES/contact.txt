@@ -1,0 +1,3 @@
+contact.phonebook_id.invalid = Directorio telefónico no válido
+contact.extension_id.invalid = Extensión no válida
+

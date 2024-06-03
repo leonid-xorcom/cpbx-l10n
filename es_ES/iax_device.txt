@@ -1,0 +1,6 @@
+iax_device.deny.invalid = La denegación no es válida. Los valores pueden escribirse como dirección/subred (por ejemplo, 192.168.1.1/255.255.255.0) o utilizando notación CIDR (por ejemplo, 192.168.1.1/24), separados por coma o espacio.
+iax_device.permit.invalid = La autorización no es válida. Los valores pueden escribirse como dirección/subred (por ejemplo, 192.168.1.1/255.255.255.0) o utilizando notación CIDR (por ejemplo, 192.168.1.1/24), separados por coma o espacio.
+iax_device.secret.invalid = La contraseña no puede estar vacía.
+iax_device.user.invalid = Por favor, ingrese un usuario de dispositivo válido. El valor debe consistir en letras alfanuméricas, números y/o _ y -.
+iax_device.user.duplicate = El usuario de dispositivo ya existe.
+iax_device.user.spaces = El usuario de dispositivo no puede contener espacios.

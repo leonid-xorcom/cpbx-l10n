@@ -1,0 +1,85 @@
+menu.scheduler = Administrador de Tareas
+module.scheduler = Administrador de Tareas
+scheduler.tasks = Tareas
+scheduler.information = Información
+scheduler.script = Script
+scheduler.script.tooltip = Qué script debe ejecutar esta tarea en la fecha y hora programadas.
+scheduler.script.invalid = Se debe seleccionar un script válido.
+scheduler.description = Descripción
+scheduler.description.tooltip = Descripción para esta tarea programada.
+scheduler.description.invalid = No se proporcionó ninguna descripción.
+scheduler.schedule = Programar
+scheduler.create_task = Crear Tarea
+scheduler.task_created = La tarea ha sido creada
+scheduler.edit_task = Editar Tarea
+scheduler.task_updated = La tarea ha sido actualizada
+scheduler.starting = Comenzando
+scheduler.starting.tooltip = La fecha y hora en la que esta tarea debe ejecutar el script seleccionado.
+scheduler.starting.invalid = No se ha elegido una fecha y hora de inicio o está mal formateada.
+scheduler.completed = Completado
+scheduler.completed.format =
+	[] Nunca
+	*[one] {0,datetime}
+scheduler.every = Cada
+scheduler.every.tooltip = Ejecutar la tarea seleccionada a un intervalo específico. Deje en blanco para ejecutar la tarea seleccionada una vez.
+scheduler.interval.invalid = El intervalo de ejecución debe ser un número positivo o dejarse vacío.
+scheduler.interval_unit.invalid = El intervalo de ejecución debe ser en minutos, horas, días, semanas o meses.
+scheduler.once = Una vez
+scheduler.every.minute =
+	[0] El {1,datetime}
+	[one] Cada minuto, comenzando el {1,datetime}
+	*[other] Cada {0} minutos, comenzando el {1,datetime}
+scheduler.every.hour =
+	[0] El {1,datetime}
+	[one] Cada hora, comenzando el {1,datetime}
+	*[other] Cada {0} horas, comenzando el {1,datetime}
+scheduler.every.day =
+	[0] El {1,datetime}
+	[one] Cada día, comenzando el {1,datetime}
+	*[other] Cada {0} días, comenzando el {1,datetime}
+scheduler.every.week =
+	[0] El {1,datetime}
+	[one] Cada semana, comenzando el {1,datetime}
+	*[other] Cada {0} semanas, comenzando el {1,datetime}
+scheduler.every.month =
+	[0] El {1,datetime}
+	[one] Cada mes, comenzando el {1,datetime}
+	*[other] Cada {0} meses, comenzando el {1,datetime}
+scheduler.minutes = Minutos
+scheduler.hours = Horas
+scheduler.days = Días
+scheduler.weeks = Semanas
+scheduler.months = Meses
+scheduler.parameters = Parámetros
+scheduler.parameters.tooltip = Cualquier parámetro requerido por el script seleccionado.
+scheduler.notes = Notas
+scheduler.notes.tooltip = Cualquier nota relacionada con esta tarea.
+scheduler.no_script_description = No hay información disponible.
+scheduler.confirm_delete = ¿Está seguro de que desea eliminar esta tarea?
+scheduler.task_deleted = La tarea ha sido eliminada
+scheduler.task.script.tooltip = Script a ejecutar
+scheduler.task.description.tooltip = Descripción de la tarea
+scheduler.task.schedule.tooltip = Cuándo ejecutar la tarea
+scheduler.task.completed.tooltip = Fecha de la última ejecución
+scheduler.task.state.tooltip = Estado actual
+scheduler.state = Estado
+scheduler.enabled = Habilitado
+scheduler.disabled = Deshabilitado
+scheduler.run_now = Ejecutar esta tarea ahora
+scheduler.task_started = La tarea ha comenzado
+scheduler.scripts.pbx_hd_clean = Liberar espacio en disco
+scheduler.scripts.pbx_hd_clean.description = <p>uso: pbx_hd_clean [-h] [-t THRESHOLD] [-T THRESHOLD_TARGET] [-a ASTLOGS_RATE] [-b BACKUPS_RATE] [-r RECORDINGS_RATE] [-l LOG_MAX_SIZE] [-n BACKUPS_NUM] [--modules MODULES] [-v] [-d] [-s] [--list] [--html-usage] [--html-usage-raw]</p><p>Este script asegura que haya un espacio mínimo suficiente en el disco duro para el funcionamiento adecuado del PBX. Verifica el espacio disponible en el disco y si es inferior al valor de umbral configurable, el script liberará espacio en disco eliminando archivos en la partición principal.</p><p> El script verifica la proporción (tasa) de espacio en disco ocupado por diferentes clases de archivos: grabaciones de llamadas, archivos de registro, respaldos, etc., y luego elimina los archivos más antiguos en consecuencia.</p><p> Solo intentará limpiar si el uso del disco en la partición principal está por encima del umbral (por defecto: 0.95). Generalmente intentará limpiar archivos hasta que se encuentre por debajo del umbral objetivo (por defecto: 0.9).</p></ul><p>argumentos opcionales</p><ul><li> -h, --help mostrar este mensaje de ayuda y salir</li><li> -t THRESHOLD, --threshold THRESHOLD Tasa de espacio utilizado a partir de la cual comenzamos la limpieza. Predeterminado: 0.95.</li><li> -T THRESHOLD_TARGET, --threshold-target THRESHOLD_TARGET Tasa de espacio utilizado a la cual detenemos la limpieza. Predeterminado: 0.9.</li><li> -a ASTLOGS_RATE, --astlogs-rate ASTLOGS_RATE Parte máxima del espacio libre en disco utilizado para los registros de Asterisk. Predeterminado: 0.05</li><li> -b BACKUPS_RATE, --backups-rate BACKUPS_RATE Parte máxima del espacio libre en disco utilizado para los respaldos. Predeterminado: 0.2</li><li> -r RECORDINGS_RATE, --recordings-rate RECORDINGS_RATE Parte máxima del espacio libre en disco utilizado para las grabaciones. Predeterminado: 0.5</li><li> -l LOG_MAX_SIZE, --log-max-size LOG_MAX_SIZE Tamaño (MB) más allá del cual se puede eliminar el archivo de registro. Predeterminado: 10 (MB)</li><li> -n BACKUPS_NUM, --backups-num BACKUPS_NUM Número de respaldos que siempre se deben evitar eliminar. Predeterminado: 2</li><li> --modules MODULES Lista separada por comas de módulos de limpieza. Predeterminado: (todos los módulos)</li><li> -v, --verbose Ser detallado</li><li> -e, --no-email No enviar notificación por correo electrónico</li></ul><p>Para Uso Interactivo</p><ul><li> -d, --no-act No hacer nada. Solo imprimir lo que se va a ejecutar</li><li> -s, --status No hacer nada. Solo mostrar el estado</li><li> --list No hacer nada. Solo listar los módulos de limpieza</li><li> --html-usage No hacer nada. Formatear la ayuda como HTML (una sola línea)</li><li> --html-usage-raw Si html-usage: no comprimir HTML a una sola línea</li></ul><p>Las configuraciones predeterminadas deberían funcionar bien. Los valores predeterminados están configurados para ser seguros en sistemas con discos más pequeños. En discos más grandes, la suma de las tres tasas (astlogs, respaldos y grabaciones) puede estar mucho más cerca de 1. Por ejemplo: --backups-rate 0.7 . Si sus respaldos incluyen grabaciones, cambie sus tasas en consecuencia. Por ejemplo: -b 0.5 -r 0.2 .</p><p> También puede ejecutar el script manualmente en la línea de comandos: /usr/share/ombutel/task-scripts/pbx_hd_clean</p>
+scheduler.scripts.backup = Respaldo Automático
+scheduler.scripts.backup.description = Este script respaldará los datos y la configuración del sistema según los parámetros a continuación.<br/><br/><u>NOTA IMPORTANTE:</u> el número de respaldos guardados en el sistema se define por <b>tipo</b>. En caso de que se defina más de una tarea de respaldo, <b>se debe establecer un tipo único para cada tarea de respaldo</b>.</br><p>Parámetros:</p><ul><li><b>-all</b><t/> - Respaldo completo. Igual que: -rec -vm -fax -cdr</li><li><b>-n</b> - Incluir nombre del respaldo</li><li><b>-c</b> - Incluir comentario de texto libre</li><li><b>-rec</b> - Respaldar grabaciones</li><li><b>-vm</b> - Respaldar mensajes de voz</li><li><b>-fax</b> - Respaldar faxes</li><li><b>-cdr</b> - Respaldar CDRs</li><li><b>-k</b> - Conservar los últimos N respaldos. Por ejemplo: para conservar los 2 últimos respaldos use <b>-k 2</b></li><li><b>-type</b> -Agrupar respaldos. En caso de especificar la opción <b>-k</b>. </br>Esto se utilizará para conservar solo los últimos N respaldos del mismo tipo</li><li><b>-d</b> - Escribir respaldo en una carpeta específica con nombre de archivo automático.</li><li><b>-r</b> - Escribir respaldo en un proveedor de almacenamiento externo con nombre especificado.</li></ul><p>Opcionalmente, se puede especificar un nombre de archivo para el respaldo.</p><p>Ejemplo: <b>-n mi_respaldo -vm -cdr -k 3 -type weekly /tmp/mirespaldo.tar</b><br/>Esto creará un respaldo llamado <b>mi_respaldo</b> solo con mensajes de voz y CDRs y siempre conservará los últimos 3 respaldos de este tipo. El respaldo se guardará en /tmp/mirespaldo.tar</p>
+scheduler.scripts.recfile_rename = Renombrar archivos de grabación
+scheduler.scripts.recfile_rename.description = <p>Este script renombra los archivos de grabación y los nombres respectivos en la tabla CDR al siguiente formato: </p><p>NombreArchivo: [dirección]_[origen]_[destino]_[fecha_hora]_[duración]_[id]</p><p style="overflow-wrap: break-word;">INCOMING_9039041771_2979_2016-04-11T09-52-58_4_1511691053.77.wav.</p><p style="overflow-wrap: break-word;">OUTGOING_0523992414_2992_2016-04-11T08-55-19_4_1511691053.77.wav</p><p>Uso: recfile_rename [-f FROM_DATE] [-t TO_DATE] [-v] [-d] </p><p>Argumentos opcionales</p><ul><li> -f FROM_DATE, --from_date FROM_DATE Fecha a partir de la cual se renombrarán los nombres de archivo de grabación. El formato de fecha debe ser AAAA-MM-DD.</li><li> -t TO_DATE, --to_date TO_DATE Fecha hasta la cual se renombrarán los nombres de archivo de grabación. El formato de fecha debe ser AAAA-MM-DD.</li><li> -v, --verbose Ser detallado.</li><li> -d, --dry-run No hacer nada, solo imprimir lo que se haría.</li></ul></p><p>También puede ejecutar el script manualmente en la línea de comandos del shell: /usr/share/ombutel/task-scripts/recfile_rename</p>
+scheduler.scripts.prune_cdr = Eliminar Registros de CDR
+scheduler.scripts.prune_cdr.description = <p>Uso: prune_cdr [-d] [-D] --[hours/days/weeks/months/years/num] N<br/>Eliminar registros de CDR más antiguos que el período de tiempo especificado:<br/>--hours Eliminar registros más antiguos que N horas.<br/>--days Eliminar registros más antiguos que N días.<br/>--weeks Eliminar registros más antiguos que N semanas.<br/>--months Eliminar registros más antiguos que N meses.<br/>--years Eliminar registros más antiguos que N años.<br/>--num Eliminar todos los registros excepto los últimos N.<br/>-d También eliminar grabaciones de audio locales.<br/>-D También eliminar grabaciones de audio de almacenamiento externo.</p>
+scheduler.scripts.prune_cel = Eliminar Registros CEL
+scheduler.scripts.prune_cel.description = <p>Uso: prune_cel --[hours/days/weeks/months/years/num] N<br/>Eliminar registros CEL más antiguos que el período de tiempo especificado:<br/>--hours Eliminar registros más antiguos que N horas.<br/>--days Eliminar registros más antiguos que N días.<br/>--weeks Eliminar registros más antiguos que N semanas.<br/>--months Eliminar registros más antiguos que N meses.<br/>--years Eliminar registros más antiguos que N años.<br/>--num Eliminar todos los registros excepto los últimos N.</p>
+scheduler.randomize = Aleatorizar
+scheduler.randomize.tooltip = Aleatorizar la hora de inicio de esta tarea hasta en un 50% del intervalo con un máximo de ± 30 minutos.
+scheduler.scripts.prune_pms = Eliminar Registros PMS
+scheduler.scripts.prune_pms.description = <p>Uso: prune_pms --[hours/days/weeks/months/years/num] N<br/>Eliminar registros PMS más antiguos que el período de tiempo especificado:<br/>--hours Eliminar registros más antiguos que N horas.<br/>--days Eliminar registros más antiguos que N días.<br/>--weeks Eliminar registros más antiguos que N semanas.<br/>--months Eliminar registros más antiguos que N meses.<br/>--years Eliminar registros más antiguos que N años.<br/>--num Eliminar todos los registros excepto los últimos N.</p>
+scheduler.scripts.upload_recordings = Subir Grabaciones
+scheduler.scripts.upload_recordings.description = Subir grabaciones a un proveedor de almacenamiento externo.<br/><br/><p>Uso: upload_recordings [-dir valor] [-prefix valor] [-res valor] [-n valor] [-existing] [-delete]<br/>-dir Directorio que contiene las grabaciones a subir (predeterminado "/var/spool/asterisk/cpbx-upload-rec").<br/>-existing Preparar grabaciones existentes para subir.<br/>-delete Eliminar archivo local después de una subida exitosa.<br/>-n Número de subidas para realizar en paralelo (predeterminado 5).<br/>-prefix Prefijo del nombre del objeto para las grabaciones subidas (predeterminado "/grabaciones").<br/>-res Nombre del recurso externo al que subir (predeterminado "").<br/></p>

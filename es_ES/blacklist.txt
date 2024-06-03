@@ -4,7 +4,7 @@ blacklist.description.tooltip = Breve descripción para el número que se inclui
 blacklist.general = General
 blacklist.not_found = Lista Negra no se encuentra
 blacklist.number = Número de CID
-blacklist.number.tooltip = Número que se incluirán en la Lista Negra.
+blacklist.number.tooltip = Número que se incluirán en la Lista Negra. Puede consistir de dígitos, números y/o símbolos "-", "_", ".", "!", "~", "*", "'", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/"
 blacklist.search = Buscar
 menu.blacklist = Lista Negra
 module.blacklist = Lista Negra

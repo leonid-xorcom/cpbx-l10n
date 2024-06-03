@@ -1,0 +1,59 @@
+menu.cloudphone = CloudPhone
+module.cloudphone = CloudPhone
+
+cloudphone.add_extensions = Agregar extensiones
+cloudphone.bulk-extensions = Lista de extensiones
+cloudphone.default_host = Los dispositivos CloudPhone no funcionarán mientras la dirección de host predeterminada esté configurada como "example.com". <br>Para hacer que los dispositivos CloudPhone sean funcionales, por favor establezca la dirección IP real de la PBX en {0}
+cloudphone.email_subject = Asunto del correo electrónico
+cloudphone.email_body = Cuerpo del correo electrónico
+cloudphone.mobile_settings = Configuración de correo electrónico móvil
+cloudphone.desktop_settings = Configuración de correo electrónico de escritorio
+cloudphone.error = Error
+cloudphone.from_address = Desde
+cloudphone.from_address.placeholder = "name" <correo@dominio.com>
+cloudphone.from_address.tooltip = De quién debería aparecer la notificación por correo electrónico. Ejemplo: "nombre" &lt;correo@dominio.com&gt;
+cloudphone.general = General
+cloudphone.host_settings = Configuración del host
+cloudphone.qrcodes = Códigos QR y Contraseñas
+cloudphone.no_extensions_selected = No se han seleccionado extensiones
+cloudphone.no_protocol_selected = No se ha seleccionado ningún protocolo. Debe definirse al menos un protocolo UDP, TCP o TLS.
+cloudphone.note = ¡Nota!
+cloudphone.resend_qrcode = Reenviar Códigos QR y Contraseñas
+cloudphone.resend_qrcode.tooltip = Reenviar todos los códigos QR y contraseñas
+cloudphone.resent_qrcodes = Se han reenviado todos los códigos QR
+cloudphone.select_extensions = Seleccionar extensiones
+cloudphone.send_qrcodes = Enviar Códigos QR y Contraseñas
+cloudphone.sent_qrcode = Códigos QR enviados
+cloudphone.sending_qrcode = Enviando códigos QR y contraseñas
+cloudphone.tcp = TCP
+cloudphone.tcp.tooltip = Dirección TCP
+cloudphone.tls = TLS
+cloudphone.tls.tooltip = Dirección TLS
+cloudphone.udp = UDP
+cloudphone.udp.tooltip = Dirección UDP
+cloudphone.mobile_subject = Instrucciones de CloudPhone Mobile para la extensión [extension]
+cloudphone.mobile_body =
+	Felicidades, tu cuenta de CloudPhone Mobile está lista.<br>
+	Para instalar y comenzar a hacer llamadas, por favor descargue la aplicación en su dispositivo:<br><br>
+	iOS - https://apps.apple.com/us/app/xorcom-cloudphone/id1496782778<br>
+	Android - https://play.google.com/store/apps/details?id=com.xorcom.cloudphone.android<br><br>
+	Después de instalar la aplicación, simplemente ábrala y escanee el código QR que se muestra a continuación.<br>
+	Asegúrese de tener conexión a Internet cuando lo haga.
+cloudphone.desktop_subject = Instrucciones de CloudPhone Desktop para la extensión [extension]
+cloudphone.desktop_body =
+	Felicidades, tu cuenta de CloudPhone Desktop está lista.<br>
+	Para instalar y comenzar a hacer llamadas, por favor descargue la aplicación en su dispositivo:<br><br>
+	Windows - https://updates.xorcom.com/servers/cphone/cphone-win-latest.exe <br>
+	macOS - https://updates.xorcom.com/servers/cphone/cphone-mac-latest.dmg <br><br>
+	Después de instalar la aplicación, copie y pegue las credenciales a continuación.<br>
+	Asegúrese de tener conexión a Internet cuando lo haga. <br><br>
+	Usuario: [username]<br>
+	Contraseña: [password]
+cloudphone.push = Usar notificaciones push
+cloudphone.push.tooltip = Los dispositivos CloudPhone recibirán por defecto notificaciones push desde un servidor remoto que mantiene la conectividad con la PBX en nombre del dispositivo. Esto se hace para reducir el uso de la batería en los dispositivos CloudPhone, pero requiere que la PBX sea accesible externamente. Desactivar las notificaciones push permitirá que el dispositivo CloudPhone realice y reciba llamadas a través de la red local, pero reducirá la vida útil de la batería.
+cloudphone.qr_code_reset_warning = Está a punto de restablecer la contraseña y el código QR del dispositivo. Esta acción desconectará inmediatamente la aplicación CloudPhone Mobile de la extensión. Si se ha configurado el correo electrónico de la extensión, el nuevo código QR se enviará automáticamente por correo electrónico al usuario.
+ombutel.cloudphone-mobile = CloudPhone Mobile
+ombutel.cloudphone-desktop = CloudPhone Desktop
+cloudphone.password_reset_warning = Está a punto de restablecer la contraseña del dispositivo. Esta acción desconectará inmediatamente la aplicación CloudPhone Desktop de la extensión. Si se ha configurado el correo electrónico de la extensión, la nueva contraseña se enviará automáticamente por correo electrónico al usuario.
+
+

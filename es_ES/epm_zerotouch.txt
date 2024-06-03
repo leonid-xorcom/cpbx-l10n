@@ -1,9 +1,10 @@
 menu.epm_zerotouch = Zero Touch
 module.epm_zerotouch = Zero Touch
 epm_zerotouch.epm_zerotouch_general = general
+epm_zerotouch.zerotouch = Zero Touch
 epm_zerotouch.communication_problem = Ha ocurrido un error de comunicación con el servidor zerotouch, por favor revise la configuración de red y vuelva a intentar.
 epm_zerotouch.error.vendor.not.supported = Dispositivo del fabricante {0} no está soportado.
-epm_zerotouch.error.registered.under.different.enterprise = Dispositivo {0} ya fue registrado en otro sitio.Por favor contacte con el fabricante.
+epm_zerotouch.error.registered.under.different.enterprise = Dispositivo {0} ya fue registrado en otro sitio. Por favor contacte con el fabricante.
 epm_zerotouch.error.device.mac.invalid = La dirección MAC {0} es inválida.
 epm_zerotouch.error.unknown.check.error = El servidor reporta un error desconocido.
 epm_zerotouch.error.unknown.delete.error = El servidor reporta un error interno.

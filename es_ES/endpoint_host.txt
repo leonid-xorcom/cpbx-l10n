@@ -1,0 +1,6 @@
+endpoint_host.label.invalid = Se requiere una etiqueta y debe ser única.
+endpoint_host.hostname.invalid = Se requiere un nombre de host.
+endpoint_host.sip_port.invalid = El puerto SIP debe ser un puerto de red válido o estar vacío.
+endpoint_host.iax2_port.invalid = El puerto IAX2 debe ser un puerto de red válido o estar vacío.
+endpoint_host.http_port.invalid = El puerto HTTP debe ser un puerto de red válido o estar vacío.
+endpoint_host.https_port.invalid = El puerto HTTPS debe ser un puerto de red válido o estar vacío.

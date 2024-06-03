@@ -1,7 +1,7 @@
 intrusion_detection = Detección de Intrusión
 intrusion_detection.add = Añadir
 intrusion_detection.bantime = Banea (bloquea) el Host por (en segundos)
-intrusion_detection.bantime.invalid = El tiempo baneo (bloqueo) debe ser cero o mayor
+intrusion_detection.bantime.invalid = El tiempo de baneo (bloqueo) debe ser cero o mayor
 intrusion_detection.ban = Lista de Baneo (bloqueo)
 intrusion_detection.configuration_updated = La configuración se ha actualizado y activado.
 intrusion_detection.deactivated = La detección de intrusión se encuentra desactivada.
@@ -24,3 +24,4 @@ intrusion_detection.updated_configuration = La configuración se ha actualizado.
 intrusion_detection.whitelist = Lista Blanca
 menu.intrusion_detection = Detección de Intrusión
 module.intrusion_detection = Detección de Intrusión
+intrusion_detection.max_bantime = El Tiempo de prohibición debe estar entre 0 y {0}

@@ -1,0 +1,7 @@
+menu.my_phonebook = Mi Directorio Telefónico
+module.my_phonebook = Mi Directorio Telefónico
+my_phonebook.message = Llamar al número
+my_phonebook.title = Llamar al Número
+my_phonebook.confirm = Llamar Ahora
+my_phonebook.cancel = Cancelar
+my_phonebook.click_to_dial = Hacer clic para Llamar

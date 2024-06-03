@@ -29,8 +29,8 @@ status_report.mailbox = Buzón de e-mail
 status_report.user = Usuario
 status_report.new_messages = Nuevo Mensaje
 status_report.refresh = Renovar
-status_report.sip_registration = Registraciones SIP
-status_report.iax_registration = Registraciones IAX
+status_report.sip_registration = Registros SIP
+status_report.iax_registration = Registros IAX
 status_report.sip_peers = Pares SIP
 status_report.iax_peers = Pares IAX
 status_report.no_queues = No hay colas definidas
@@ -56,4 +56,17 @@ status_report.active_channels = Canales Activos
 module.status_report = Reporte de Estado
 menu.pbx_reports = Reportes de PBX
 menu.status = Estados
+status_report.statusval =
+  [0] Disponible
+  [1] En Uso
+  [2] Ocupado
+  [4] No Disponible
+  *[] {1}
+status_report.hot_desking = Escritorio Compartido
+status_report.device = Dispositivo
+status_report.device_description = Descripción del Dispositivo
+status_report.extension_name = Nombre de la Ext.
+status_report.technology = Tecnología
+status_report.devices = Dispositivos
+status_report.filter = Filtro
 status_report.filter.tooltip = Seleccione una (o más) opciones de la lista de dispositivos disponibles.

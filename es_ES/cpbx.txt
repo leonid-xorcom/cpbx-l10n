@@ -1,2 +1,33 @@
-cpbx.licenses_title.warning = ATENCION!
-cpbx.ombu_allowed_extensions = Ha llegado a su límite de licencia {0} de extensiones. <br/>Para comprar licencia para más extensiones, póngase en contacto con su distribuidor.
+cpbx.dahdi_reload_title = ¡ADVERTENCIA!
+cpbx.dahdi_reload_content = La recarga desconectará todas las llamadas activas en: <ul><li>puertos de extensión FXS (análogos)</li><li>puertos de línea FXO (análogos)</li><li>puertos digitales PRI E1/T1 o BRI ISDN</li></ul> Las llamadas VoIP no se verán afectadas.
+cpbx.confirm = Confirmar
+cpbx.dahdi_reload_confirm = Confirmar
+cpbx.dahdi_reload_cancel = Cancelar
+cpbx.default = Predeterminado
+cpbx.licenses.admin.expire = La licencia PBX <strong>{0}</strong> está a punto de expirar.
+cpbx.licenses.admin.expire.subject = Expiración de Licencia PBX {0}
+cpbx.licenses.admin.grace = ¡ADVERTENCIA! La licencia PBX <strong>{0}</strong> se ha vuelto inválida. La licencia dejará de funcionar {1} días después de la notificación inicial.
+cpbx.licenses.admin.grace.subject = ¡ADVERTENCIA! Licencia PBX Inválida
+cpbx.licenses.admin.invalid = La licencia <strong>{0}</strong> es inválida y su PBX puede no funcionar correctamente. La razón puede ser que la licencia haya expirado, que el sistema no esté licenciado o que no tenga acceso al servidor de licencias.
+cpbx.licenses.admin.invalid.subject = ¡ADVERTENCIA! Licencia PBX inválida
+cpbx.licenses_title.warning = ¡ATENCION!
+cpbx.no_valid_extension_license = El sistema funciona con una licencia de demostración y está limitado a tres extensiones. Esto puede ser debido a una de las siguientes razones:<ul><li>El sistema nunca fue licenciado.</li><li>El sistema fue licenciado, pero la licencia ha expirado.</li><li>El sistema está licenciado pero no tiene acceso al servidor de licencias.</li></ul>Si está evaluando el sistema, puede continuar como de costumbre. En caso de que desee renovar una licencia o recibir soporte técnico, <a href="https://www.xorcom.com/europe-latin-america-africa-asia-middle-east-ip-pbx/" target="_blank">contáctanos</a>.
+cpbx.no_valid_extension_license.oem = El sistema funciona bajo una licencia de demostración y está limitado a tres extensiones. Esto puede ser debido a una de las siguientes razones:<ul><li>El sistema nunca fue licenciado.</li><li>El sistema fue licenciado, pero la licencia ha expirado.</li><li>El sistema está licenciado pero no tiene acceso al servidor de licencias.</li></ul>Si está evaluando el sistema, puedes continuar como de costumbre.
+cpbx.have_license_problem = Hay un problema con una o más licencias de software en este sistema. Por favor, verifique <a onclick="pbx_request('license');">{module.license}</a> para más detalles.
+cpbx.have_license_problem.no_link = Hay un problema con una o más licencias de software en este sistema. Por favor, verifique {module.license} para más detalles.
+cpbx.ombu_allowed_extensions = Ha alcanzado el límite de licencia de {0} extensiones, no se pueden crear más extensiones.
+epmpnp = Administrador de Extremos PnP
+cpbx.serial_number = Número de Serie: <strong>{0}</strong>
+cpbx.system_name = Nombre del Sistema: <strong>{0}</strong>
+setting.module.invalid = Se requiere un módulo y debe ser válido.
+setting.name.invalid = Se requiere un nombre.
+setting.value.invalid = Se requiere un valor.
+cpbx.service_agreement.expire.subject = Vencimiento Próximo del Acuerdo de Servicio PBX
+cpbx.service_agreement.expire.body = El PBX {0} ({1}) está bajo un acuerdo de servicio que expirará el {2}.<br>Para renovar el acuerdo de servicio, por favor contacta a tu revendedor.<br>Las actualizaciones de seguridad, otras actualizaciones de software y el soporte técnico del fabricante solo están disponibles bajo un acuerdo de servicio.
+cpbx.service_agreement.expired.subject = Vencimiento del Acuerdo de Servicio PBX {0}
+cpbx.service_agreement.expired.body = Tu acuerdo de servicio PBX ha expirado.<br>Para renovar el acuerdo de servicio, por favor contacte a su revendedor.<br>Las actualizaciones de seguridad, otras actualizaciones de software y el soporte técnico del fabricante solo están disponibles bajo un acuerdo de servicio.
+cpbx.have_service_agreement_problem = Su sistema no está bajo un acuerdo de servicio. Para garantizar el mejor servicio y las actualizaciones de software y seguridad, renueve su acuerdo de servicio. Por favor, verifique <a onclick="pbx_request('license');">{module.license}</a> para más detalles.
+cpbx.have_service_agreement_problem.no_link = Su sistema no está bajo un acuerdo de servicio. Para garantizar el mejor servicio y las actualizaciones de software y seguridad, renueve su acuerdo de servicio.
+cpbx.auth-failed = No se puede activar el acuerdo de servicio. Por favor, asegúrese de que este sistema esté conectado a Internet. Si el problema persiste, es posible que el sistema esté fuera de un acuerdo de servicio. Por favor, contacte a su distribuidor para extender el acuerdo de servicio para este sistema.
+module.search = Búsqueda
+

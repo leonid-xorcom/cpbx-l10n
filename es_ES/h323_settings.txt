@@ -1,0 +1,12 @@
+module.h323_settings = Configuración H.323
+menu.h323_settings = Configuración H.323
+h323_settings.bindaddr = Dirección de enlace
+h323_settings.bindaddr.tooltip = Dirección IP a la cual enlazarse (0.0.0.0 se enlaza a todas)
+h323_settings.codecs = Códecs
+h323_settings.codecs.tooltip = Lista de códecs permitidos. El orden en que se enumeran los códecs determina su orden de preferencia. Si selecciona al menos un codec, también se generará el parámetro "disallow=all".
+h323_settings.enabled = Habilitado
+h323_settings.enabled.tooltip = Habilita o deshabilita la opción H.323
+h323_settings.firewall_note = Por favor, asegúrese de que el servicio H.323 esté configurado correctamente en la <a class='pointer' onclick="javascript:pbx_request('firewall')">Configuración del Firewall</a>.
+h323_settings.general = General
+h323_settings.port = Puerto de enlace
+h323_settings.port.tooltip = Puerto al cual enlazarse (el puerto estándar de H.323 es 1720)

@@ -1,0 +1,5 @@
+destination.category_id.invalid = Se requiere una categoría y debe ser válida.
+destination.module_id.invalid = Se requiere un módulo y debe ser válido.
+destination.index.invalid = Se requiere un índice y debe ser válido.
+destination.name.invalid = Se requiere un nombre y debe ser válido.
+

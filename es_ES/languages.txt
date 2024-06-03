@@ -1,5 +1,7 @@
 languages = Idiomas
 languages.description = Descripción
+languages.description.empty = La descripción no debe estar vacía
+languages.description.nonunique = La descripción debe ser única
 languages.description.tooltip = Breve descripción para identificar este idioma.
 languages.destination = Destino
 languages.general = General
@@ -7,6 +9,9 @@ languages.langcode = Idioma
 languages.langcode.tooltip = Idioma a configurar en el canal.
 languages.mod_dest = Módulo de Destino
 languages.name = Nombre
+languages.name.empty = El nombre no puede estar vacío
+languages.name.nonunique = El nombre debe ser único
 languages.name.tooltip = Nombre corto (debe ser único).
 menu.languages = Idiomas
 module.languages = Idiomas
+destination_type.language = Idioma

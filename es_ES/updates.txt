@@ -1,0 +1,14 @@
+module.updates = Actualizaciones
+menu.updates = Actualizaciones
+updates.general = General
+updates.installed_version = Versión instalada de {0}
+updates.installed_version.tooltip = Versión de {0} actualmente instalada.
+updates.latest_version = Última versión de {0}
+updates.latest_version.tooltip = Versión de {0} actualmente disponible para descargar.
+updates.has_service_agreement = Este sistema tiene un acuerdo de servicio hasta {0,date}
+updates.has_permanent_service_agreement = Este sistema tiene un acuerdo de servicio permanente.
+updates.no_service_agreement = El acuerdo de servicio aún no ha sido activado. De clic a continuación para activarlo.
+updates.checking = Verificando...
+updates.update_system = Actualizar Sistema
+updates.activate_agreement = Activar Acuerdo de Servicio
+updates.unknown = Desconocido

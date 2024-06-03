@@ -1,0 +1,52 @@
+profiles_cloudphone_remote_outbound_proxy_tooltip = Proxy de salida que la aplicación ROAM debe usar, opcionalmente incluyendo el número de puerto.
+ombutel.cloudphone = ROAM Mobile
+ombutel.desktop = ROAM Desktop
+license.cloudphone-devices = ROAM Mobile
+license.desktop-devices = ROAM Desktop
+license.cloudphone-description-subst = ROAM
+hot_desking.cloudphone_no_hostname = <strong>¡Nota!</strong> El perfil seleccionado no define el nombre de host externo, que es necesario para que funcione ROAM Mobile.
+hot_desking.cloudphone_send_qrcode.tooltip =
+	Genera un nuevo código QR y lo envía a la dirección de correo electrónico de la extensión.
+	Esta acción desconectará inmediatamente la aplicación ROAM Mobile de la extensión.
+hot_desking.desktop_no_hostname = <strong>¡Nota!</strong> El perfil seleccionado no define el nombre de host externo, que es necesario para que funcione ROAM Desktop.
+hot_desking.desktop_send_password.tooltip =
+	Genera una nueva contraseña y la envía a la dirección de correo electrónico de la extensión.
+	Esta acción desconectará inmediatamente la aplicación ROAM Desktop de la extensión.
+cloudphone_mobile.limit_exceeded =
+	[0] Las licencias presentes en este sistema no permiten la creación de dispositivos ROAM Mobile adicionales.
+	[one] Las licencias presentes en este sistema solo permiten un dispositivo ROAM Mobile, no se pueden crear más dispositivos.
+	*[other] Las licencias presentes en este sistema permiten hasta {0} dispositivos ROAM Mobile, no se pueden crear más dispositivos.
+cloudphone_desktop.limit_exceeded =
+	[0] Las licencias presentes en este sistema no permiten la creación de dispositivos ROAM Desktop adicionales.
+	[one] Las licencias presentes en este sistema solo permiten un dispositivo ROAM Desktop, no se pueden crear más dispositivos.
+	*[other] Las licencias presentes en este sistema permiten hasta {0} dispositivos ROAM Desktop, no se pueden crear más dispositivos.
+menu.cloudphone = ROAM
+module.cloudphone = ROAM
+cloudphone.mobile_subject = Instrucciones ROAM Mobile para la extensión [extension]
+cloudphone.mobile_body =
+	Felicidades, su cuenta ROAM Mobile está lista.<br>
+	Para instalar y empezar a realizar llamadas, por favor descargue la aplicación en su dispositivo:<br><br>
+	iOS - https://apps.apple.com/us/app/maxlink-roam/id1557630212<br>
+	Android - https://play.google.com/store/apps/details?id=io.maxlink.maxlinkroam.android<br><br>
+	Después de instalar la aplicación, simplemente ábrala y escanea el código QR a continuación.<br>
+	Asegúrese de tener conexión a internet cuando lo haga.
+cloudphone.desktop_subject = Instrucciones ROAM Desktop para la extensión [extension]
+cloudphone.desktop_body =
+	Felicidades, su cuenta ROAM Desktop está lista.<br>
+	Para instalar y empezar a realizar llamadas, por favor descargue la aplicación en su dispositivo:<br><br>
+	Windows - https://maxlink.io/updates/roam/roam-win-latest.exe <br>
+	macOS - https://maxlink.io/updates/roam/roam-mac-latest.dmg <br><br>
+	Después de instalar la aplicación, copie y pegue las credenciales a continuación.<br>
+	Asegúrese de tener conexión a internet cuando lo haga. <br><br>
+	Usuario: [username]<br>
+	Contraseña: [password]
+cloudphone.push.tooltip = Los dispositivos ROAM Mobile recibirán por defecto notificaciones push desde un servidor remoto que mantiene la conectividad con la PBX en nombre del dispositivo. Esto se hace para reducir el consumo de batería en los dispositivos ROAM Mobile pero requiere que la PBX sea accesible externamente. Desactivar las notificaciones push permitirá que el dispositivo ROAM Mobile realice y reciba llamadas a través de la red local pero reducirá la vida útil de la batería.
+cloudphone.qr_code_reset_warning = Está a punto de restablecer la contraseña y el código QR del dispositivo. Esta acción desconectará inmediatamente la aplicación ROAM Mobile de la extensión. Si se ha configurado el correo electrónico de la extensión, el nuevo código QR se enviará automáticamente por correo electrónico al usuario.
+ombutel.cloudphone-mobile = ROAM Mobile
+ombutel.cloudphone-desktop = ROAM Desktop
+cloudphone.password_reset_warning = Está a punto de restablecer la contraseña del dispositivo. Esta acción desconectará inmediatamente la aplicación ROAM Desktop de la extensión. Si se ha configurado el correo electrónico de la extensión, la nueva contraseña se enviará automáticamente por correo electrónico al usuario.
+profiles_technology_cloudphone = ROAM
+hot_desking.desktop_username.tooltip = Nombre de usuario de la aplicación ROAM Desktop.
+hot_desking.desktop_password.tooltip = Contraseña de la aplicación ROAM Desktop.
+
+

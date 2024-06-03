@@ -1,0 +1,1 @@
+mobile_device.number.invalid = Por favor, ingrese un número de dispositivo

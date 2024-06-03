@@ -1,8 +1,10 @@
 accountcode = Códigos de Cliente
 accountcode.code = Código de Cliente
 accountcode.code.tooltip = Número de código de cliente.
+accountcode.code.invalid = El código de cliente no es válido. Utilice únicamente números y el símbolo "*" (asterisco).
 accountcode.description = Descripción
 accountcode.description.tooltip = Breve descripción para identificar el código de cliente.
+accountcode.description.invalid = Se requiere una descripción y debe ser única.
 accountcode.enabled = Habilitado
 accountcode.enabled.tooltip = Habilitar/Deshabilitar este código de cliente.
 accountcode.general = General

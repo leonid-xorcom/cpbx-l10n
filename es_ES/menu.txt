@@ -1,0 +1,4 @@
+menu.label.invalid = Se requiere una etiqueta y debe ser única.
+menu.parent_id.invalid = El padre debe ser válido o estar vacío.
+menu.module_id.invalid = El módulo debe ser válido o estar vacío.
+

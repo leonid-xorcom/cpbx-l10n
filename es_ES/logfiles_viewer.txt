@@ -8,5 +8,6 @@ logfiles_viewer.logfile.tooltip = Seleccione el archivo de registro a ver
 logfiles_viewer.no_file_selected = Ningún archivo seleccionado
 logfiles_viewer.read_logfile = Leer Archivo de Registro
 logfiles_viewer.select_logfile = --- Seleccione un archivo de registro ---
+logfiles_viewer.invalid_filename = No se puede encontrar el archivo de registro solicitado
 menu.log_file_viewer = Visor de Archivo de Registro
 module.logfiles_viewer = Visor de Archivo de Registro

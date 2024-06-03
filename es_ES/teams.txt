@@ -1,0 +1,45 @@
+menu.teams = Teams Connector
+module.teams = Teams Connector
+teams.teams_settings = Configuración de Teams Connector
+teams.email_settings = Configuración de Correo Electrónico de Teams Connector
+teams.teams_account_id = ID de cuenta para llamar a la API
+teams.teams_account_id.placeholder = ID de cuenta para llamar a la API
+teams.teams_account_id.tooltip = ID de cuenta para llamar a la API
+teams.teams_account_id.wrong = El ID de cuenta para llamar a la API no es válido
+teams.ips_to_whitelist = IPs para añadir a la lista blanca (white-list)
+teams.ips_to_whitelist.placeholder = IPs del SBC de Teams Connector
+teams.ips_to_whitelist.tooltip = IPs del SBC de Teams Connector
+teams.from_address = Desde
+teams.from_address.placeholder = "nombre" <correo@dominio.com>
+teams.from_address.tooltip = Quién debería aparecer como remitente de la notificación por correo electrónico. Ejemplo: "nombre" <correo@dominio.com>
+teams.email_subject = Asunto del correo electrónico
+teams.email_body = Cuerpo del correo electrónico
+teams.sync = Sincronizar
+teams.users = Usuarios
+teams.user = Usuario
+teams.service_type = Tipo de servicio
+teams.sip_user = Usuario SIP
+teams.service_name = PBX / Troncal
+teams.registration_status = Estado de registro
+teams.teams_name = Nombre de Teams Connector
+teams.teams_name.placeholder = Nombre de Teams Connector
+teams.teams_name.tooltip = Nombre de Teams Connector
+teams.no_service_available = No hay ningún servicio suscrito para detener
+teams.stop_service_successful = El servicio se ha detenido correctamente
+teams.something_went_wrong = Algo salió mal, por favor verifique la configuración de Internet y DNS e inténtelo de nuevo
+teams.stop_service = Detener servicio
+teams.stop_service.confirm = ¿Está seguro de que quiere detener el servicio?
+teams.limit_exceeded =
+	[0] Las licencias presentes en este sistema no permiten la creación de dispositivos adicionales de Teams Connector.
+	[one] Las licencias presentes en este sistema solo permiten un dispositivo de Teams Connector, no se pueden crear más dispositivos.
+	*[other] Las licencias presentes en este sistema permiten hasta {0} dispositivos de Teams Connector, no se pueden crear más dispositivos.
+teams.user.duplicate = El usuario del dispositivo ya existe
+teams.user.invalid = Por favor, introduzca un usuario de dispositivo válido
+teams.user.spaces = El usuario del dispositivo no puede contener espacios. El valor debe consistir de letras alfanuméricas, números y/o _ y -.
+teams.secret.invalid = La contraseña no puede estar vacía
+teams.user = Usuario de Teams Connector
+teams.user.tooltip = Usuario de Teams Connector para este dispositivo
+teams.teams_user_id.invalid = No se especificó ningún usuario de Teams Connector
+teams.profile_id.teams_service_id_empty = <strong>¡Nota!</strong> El perfil seleccionado no define el Nombre de Host Externo que es necesario para que funcione Teams Connector.
+teams.actions = Acciones
+teams.actions.tooltip = <strong>Sincronizar - </strong>Conectar la PBX a Teams Connector.<br><strong>Detener servicio - </strong>Esto detendrá la sincronización entre la PBX y Teams Connector. Tenga en cuenta que en las licencias de pago posterior es obligatorio eliminar los dispositivos de Teams Connector (bajo Extensiones) para evitar que se te cobre por el servicio.

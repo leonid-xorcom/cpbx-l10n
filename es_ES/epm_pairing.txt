@@ -1,0 +1,12 @@
+module.epm_pairing = PhoneScan
+menu.epm_pairing = PhoneScan
+epm_pairing.general = PhoneScan
+epm_pairing.time_remaining = Tiempo Restante
+epm_pairing.time_remaining.tooltip = Tiempo restante para el mapeo remoto de los terminales
+epm_pairing.enabled = Habilitado
+epm_pairing.enabled.tooltip = Habilitar/deshabilitar el mapeo remoto de dispositivos
+epm_pairing.enabled.1 = On
+epm_pairing.enabled.0 = Off
+epm_pairing.reset = Restablecer
+epm_pairing.reset.tooltip = Restablecer el tiempo restante a 30 minutos
+epm_pairing.download = Descargar la aplicación de aprovisionamiento PhoneScan

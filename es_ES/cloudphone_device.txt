@@ -1,0 +1,15 @@
+cloudphone_device.deny.invalid = Denegación no válida. Los valores pueden escribirse como dirección/subred (Ej: 192.168.1.1/255.255.255.0) o usando notación CIDR (Ej: 192.168.1.1/24), separados por coma o espacio.
+cloudphone_device.permit.invalid = Permiso no válido. Los valores pueden escribirse como dirección/subred (Ej: 192.168.1.1/255.255.255.0) o usando notación CIDR (Ej: 192.168.1.1/24), separados por coma o espacio.
+cloudphone_device.user.duplicate = El usuario del dispositivo ya existe
+cloudphone_device.user.invalid = Por favor, ingrese un usuario de dispositivo válido
+cloudphone_device.user.spaces = El usuario del dispositivo no puede contener espacios. El valor debe consistir en letras alfanuméricas, números y/o _ y -.
+cloudphone_device.secret.invalid = La contraseña no puede estar vacía
+cloudphone_mobile.limit_exceeded =
+	[0] Las licencias presentes en este sistema no permiten la creación de dispositivos CloudPhone Mobile adicionales.
+	[one] Las licencias presentes en este sistema solo permiten un dispositivo CloudPhone Mobile, no se pueden crear más dispositivos.
+	*[other] Las licencias presentes en este sistema permiten hasta {0} dispositivos CloudPhone Mobile, no se pueden crear más dispositivos.
+cloudphone_desktop.limit_exceeded =
+	[0] Las licencias presentes en este sistema no permiten la creación de dispositivos CloudPhone Desktop adicionales.
+	[one] Las licencias presentes en este sistema solo permiten un dispositivo CloudPhone Desktop, no se pueden crear más dispositivos.
+	*[other] Las licencias presentes en este sistema permiten hasta {0} dispositivos CloudPhone Desktop, no se pueden crear más dispositivos.
+

@@ -1,0 +1,14 @@
+concurrent_calls = Llamadas Concurrentes
+menu.concurrent_calls = Llamadas Concurrentes
+module.concurrent_calls = Llamadas Concurrentes
+concurrent_calls.total = Llamadas Concurrentes Combinadas
+concurrent_calls.trunk = Llamadas Concurrentes para la troncal "{0}"
+concurrent_calls.from = Comenzando Desde
+concurrent_calls.from.tooltip = Desde qué momento mostrar las llamadas.
+concurrent_calls.days = Duración
+concurrent_calls.days.tooltip = Duración para mostrar las llamadas.
+concurrent_calls.24h = 24 Horas
+concurrent_calls.7d = 7 días
+concurrent_calls.30d = 30 días
+concurrent_calls.refresh = Actualizar
+concurrent_calls.general = General

@@ -1,3 +1,7 @@
 device.description.invalid = Por favor ingrese una descripción de dispositivo válida
 device.description.duplicate = La descripción de dispositivo ya existe
-device.profile_id.invalid = Por favor seleccione un perfil de dispositivo
+device.profile_id.invalid = Por favor, selecciona un Perfil de Dispositivo.
+device.user_device.exists = El Dispositivo de Usuario ya existe. {0} ({1}). (debe ser único)
+device.profile_id.incompatible = El perfil del dispositivo debe ser compatible con la tecnología del dispositivo.
+device.hotdesk_unsupported = Escritorio Compartido no es compatible con esta tecnología de dispositivo.
+device.extension_id.invalid = La extensión debe ser válida o estar vacía.

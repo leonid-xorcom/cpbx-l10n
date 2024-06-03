@@ -1,0 +1,3 @@
+fxs_device.channel_id.invalid = Por favor, seleccione un canal de dispositivo válido
+fxs_device.hotline_number.invalid = El número de la línea directa debe ser un número que pueda marcarse o dejarse vacío.
+fxs_device.hotline_timeout.invalid = El tiempo de espera de la línea directa debe estar entre 0 y 120
